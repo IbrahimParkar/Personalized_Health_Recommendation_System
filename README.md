@@ -5,52 +5,61 @@ This repository contains the code and data for the Personalized Health Recommend
 ## Disease Prediction Performance Metrics
 
 ### Heart Arrhythmia
-- **Model:** Logistic Regression
-  - Precision: 90.0
-  - Recall: 94.5
-  - F1 Score: 91.5
-  - Accuracy: 93.5
-  - Cross Validation: 94.7
+- **Model:** Random Forest
+  - Precision: 1
+  - Recall: 1
+  - F1 Score: 1
+  - Accuracy: 1
+  - balanced_accuracy: 1
+  - auc: 1
 
-### Sleep Apnea
-- **Model:** Random Forest Classifier
-  - Precision: 90.33
-  - Recall: 83.67
-  - F1 Score: 85.67
-  - Accuracy: 91.07
-  - Cross Validation: 91.4
+### Sleep Apnea and Insomnia
+- **Model:** Support Vector Machine
+  - Precision: 88.98
+  - Recall: 89.28
+  - F1 Score: 88.7
+  - Accuracy: 89.2
+  - Balanced AUC: 78.3
+  - AUC: 88.92
 
 ### Stroke
 - **Models:** 
   - **Random Forest Classifier**
-    - Precision: 92.18
-    - Recall: 95.9
-    - F1 Score: 94
-    - Accuracy: 93.83
-  - **Decision Tree**
-    - Precision: 95.75
-    - Recall: 94.67
-    - F1 Score: 95.2
-    - Accuracy: 95.19
+    - Precision: 93.81
+    - Recall: 93.99
+    - F1 Score: 92.14
+    - Accuracy: 95.90
+    - Balanced AUC: 93.79
+    - AUC: 93.99
+      
+  - **Decision Trees**
+    - Precision: 95.18
+    - Recall: 95.20
+    - F1 Score: 95.74
+    - Accuracy: 94.67
+    - Balanced AUC: 95.19
+    - AUC: 94.67
+      
   - **Voting Classifier**
-    - Precision: 96
-    - Recall: 96
-    - F1 Score: 96
-    - Accuracy: 95.68
-    - Cross Validation: 95.96
+    - Precision: 95.67
+    - Recall: 95.71
+    - F1 Score: 95.67
+    - Accuracy: 95.75
+    - Balanced AUC: 95.67
+    - AUC: 95.67
 
 ## Usage
 
 1. **Arrhythmia Prediction:**
-   - The prediction model for arrhythmia uses Logistic Regression.
+   - The prediction model for arrhythmia uses Random Forest.
    - Navigate to the `arrhythmia` folder to access the code and data. The code includes preprocessing, model training, and implementation.
 
 2. **Sleep Apnea Prediction:**
-   - The prediction model for sleep apnea uses a Random Forest Classifier.
+   - The prediction model for sleep apnea uses a Support Vector Machine.
    - Navigate to the `sleep_apnea` folder to access the code and data. The code includes preprocessing, model training, and implementation.
 
 3. **Stroke Prediction:**
-   - The prediction models for stroke include Random Forest Classifier, Decision Tree, and Voting Classifier.
+   - The prediction models for stroke include a Random Forest Classifier, Decision Tree, and Voting Classifier.
    - Navigate to the `stroke` folder to access the code and data. The code includes preprocessing, model training, and implementation.
 
 4. **Website Interaction:**
